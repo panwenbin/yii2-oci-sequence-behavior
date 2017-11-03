@@ -1,0 +1,27 @@
+{
+  "name": "panwenbin/yii2-oci-sequence-behavior",
+  "description": "use Oracle sequence on insert when there is no trigger",
+  "keywords": [
+    "Oracle",
+    "Oci",
+    "Yii2",
+    "sequence"
+  ],
+  "type": "yii2-extension",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Pan Wenbin",
+      "email": "panwenbin@gmail.com"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": "^2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "panwenbin\\oci\\behaviors\\": "src/"
+    }
+  }
+}
